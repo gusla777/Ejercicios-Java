@@ -1,4 +1,4 @@
-public class Ejercicio6 {
+public class ejercicio6 {
     public static void main(String[] args) {
         int menor = 0;
         int mayor = 0;
