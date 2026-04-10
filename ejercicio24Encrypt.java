@@ -6,9 +6,9 @@ public class ejercicio24Encrypt {
         char[] inversa = new char[frase.length()];
         for (int i = 0; i < inversa.length; i++) {
             inversa[i] = frase.charAt(frase.length() - i - 1);
-            System.out.print(inversa[i]);
+            System.out.println(inversa[i]);
         }
-
+        System.out.println();
         String clave = System.console().readLine("Dame la clave ----->      ");
         char[] descifrado = new char[clave.length()];
 
